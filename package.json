@@ -1,0 +1,39 @@
+{
+  "name": "data-structures-and-algorithms-in-js",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "@babel/node src/index.ts",
+    "build": "babel src -d lib",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Caio Amaral Corrêa <caiobep@me.com> (https://github.com/caiobep)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "~7.5.5",
+    "@babel/core": "~7.5.5",
+    "@babel/node": "~7.5.5",
+    "@babel/plugin-proposal-class-properties": "~7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "~7.5.5",
+    "@babel/plugin-proposal-optional-chaining": "~7.2.0",
+    "@babel/preset-env": "~7.5.5",
+    "@babel/preset-typescript": "~7.3.3",
+    "@types/jest": "~24.0.17",
+    "@typescript-eslint/eslint-plugin": "~1.13.0",
+    "@typescript-eslint/parser": "~1.13.0",
+    "babel-eslint": "~10.0.2",
+    "babel-jest": "~24.8.0",
+    "eslint": "~6.1.0",
+    "eslint-config-standard": "~13.0.1",
+    "eslint-plugin-import": "~2.18.2",
+    "eslint-plugin-node": "~9.1.0",
+    "eslint-plugin-promise": "~4.2.1",
+    "eslint-plugin-standard": "~4.0.0",
+    "jest": "~24.8.0",
+    "prettier": "~1.18.2",
+    "prettier-eslint": "~9.0.0",
+    "typescript": "~3.5.3"
+  }
+}
