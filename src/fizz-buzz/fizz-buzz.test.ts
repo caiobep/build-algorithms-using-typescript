@@ -1,6 +1,5 @@
 import fizzBuzz from './fizz-buzz'
 
-
 test('For multiples of 3, print Fizz', () => {
   const result = fizzBuzz(0, [1, 2, 3, 4, 6])
 
@@ -39,10 +38,6 @@ test('Generates array based on specified length', () => {
     'Fizz',
     13,
     14,
-    'FizzBuzz'
+    'FizzBuzz',
   ])
-
 })
-
-
-

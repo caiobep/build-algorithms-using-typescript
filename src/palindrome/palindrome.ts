@@ -1,7 +1,11 @@
-import { stringLiteral } from "@babel/types";
-
 export const isPalindromeByReverse = (word: string): boolean => {
-  return word === word.split('').reverse().join('')
+  return (
+    word ===
+    word
+      .split('')
+      .reverse()
+      .join('')
+  )
 }
 
 export const isAnyPermutationPalindrome = (word: string): boolean => {
@@ -17,7 +21,4 @@ export const isAnyPermutationPalindrome = (word: string): boolean => {
   return unmatched.size <= 1
 }
 
-
-
 export default isPalindromeByReverse
-
